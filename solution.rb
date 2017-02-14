@@ -1,7 +1,7 @@
 require "sinatra"
 
 get '/' do
-  unless params[:nombre]
+  unless params[:desconocido]
     "Hola Desconocido!"
   else
     <<-HTML
